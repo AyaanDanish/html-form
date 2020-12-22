@@ -1,0 +1,68 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="main"> Order Details </div>
+
+<form style="text-align:center;" id="form">
+<h2> Personal Information </h2>
+<label for="fname"> First Name: </label>
+<input type="text" id="fname"> </input> <br><br>
+
+<label for="lname"> Last Name: </label>
+<input type="text" id="lname"> </input> <br><br>
+
+<label for="phone"> Phone Number: </label>
+<input type="tel" id="phone" placeholder="e.g: 0345-3124579"> </input> <br><br>
+
+<h2> Shipping Information </h2>
+<label for="state"> Select your province: </label>
+<select id="state"> 
+	<option> --Select Province-- </option>
+	<option> Sindh </option>
+	<option> Punjab </option>
+	<option> Balochistan </option>
+	<option> Khyber Pakhtunkhwa </option>
+</select><br><br>
+
+<label for="city"> City: </label>
+<input type="text" id="city"> </input> <br><br>
+
+<label for="address" style="vertical-align:top;"> Address: </label>
+<textarea form="form" id="address" rows="5" cols="50"> </textarea> <br><br>
+
+<label for="landmark"> Nearest Landmark (Optional):  </label>
+<input type="text" id="landmark"> </input> <br><br>
+
+<input type="checkbox" id="gift">
+<label for="gift"> Gift Wrap Item </label>
+
+<h2> Billing Information </h2>
+<p> Payment Type:
+<input type="radio" id="cash" name="pay">
+<label for="cash"> Cash On Delivery </label>
+
+<input type="radio" id="card" name="pay">
+<label for="card"> Credit/Debit Card </label>
+</p>
+
+<p style="font-size:20px;"> <strong> Card Details (if paying by card): </strong> </p>
+<label for="cardnum"> Card Number:  </label>
+<input type="tel" id="cardnum"><br><br>
+
+<label for="date"> Card Expiry Date: </label>
+<input type="date" id="date"><br><br>
+
+<input type="checkbox" id="terms">
+<label for="terms"> I have read and accepted the terms and conditions. </label><br><br>
+
+<input type="submit">
+
+
+
+
+</form>
+</body>
+</html>

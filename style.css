@@ -1,0 +1,38 @@
+body {
+	background-color:#5e5351;
+}
+
+#address {
+	text-align:center;
+	font-family:calibri;
+	resize: none;
+	
+}
+
+#main {
+	color: white;
+	font-family: calibri;
+	font-size: 40px;
+	background-color: #242323;
+	width: 100%;
+	text-align:center;
+}
+
+h2 {
+	color:white;
+	text-align:center;
+	font-family: calibri;
+}
+
+p {
+	color:white;
+	text-align:center;
+	font-family: calibri;
+	font-size:18px;
+}
+label {
+	font-family:calibri;
+	font-size:18px;
+	color:white;
+}
+	
